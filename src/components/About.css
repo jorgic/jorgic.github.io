@@ -1,4 +1,26 @@
 .About {
   height: 100vh;
   background-color: #ffd275;
+  padding: 20px;
+  position: relative;
+}
+
+.title-line {
+  width: 4rem;
+  height: 3px;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  column-gap: 1rem;
+}
+.main .about {
+  text-align: justify;
+}
+.main .other {
+  text-align: right;
 }

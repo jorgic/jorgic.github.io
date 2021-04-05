@@ -1,6 +1,6 @@
 .Home {
   height: 100vh;
-  background-color: #a891b7;
+  background-color: #3664f4;
   display: grid;
   place-items: center;
 }
@@ -24,5 +24,10 @@
 
 .gif {
   width: 80vw;
-  max-width: 400px;
+  max-width: 300px;
+  margin: 50px 0;
+}
+
+.cv-download {
+  color: #fff;
 }

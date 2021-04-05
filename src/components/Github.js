@@ -5,7 +5,7 @@ export default function Github() {
   return (
     <GithubCorner
       href="https://github.com/jorgadev"
-      octoColor="#a891b7"
+      octoColor="#3664f4"
       bannerColor="white"
       target="_blank"
     />

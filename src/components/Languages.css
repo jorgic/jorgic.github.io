@@ -1,0 +1,19 @@
+.Languages {
+  position: absolute;
+  padding: 10px;
+  color: #ccc;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.active {
+  color: #fff;
+}
