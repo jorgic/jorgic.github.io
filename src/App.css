@@ -1,28 +1,9 @@
-.App {
-  height: 100vh;
-  background-color: #a891b7;
-  display: grid;
-  place-items: center;
+.switch-wrapper {
+  position: relative;
+  width: 100vw;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.title {
-  font-size: 2rem;
-  color: #fff;
-  font-weight: 300;
-}
-
-.title span {
-  font-weight: 400;
-}
-
-.gif {
-  width: 80vw;
-  max-width: 400px;
+.switch-wrapper > div {
+  position: absolute;
+  width: 100%;
 }

@@ -1,54 +1,26 @@
-import React from "react";
 import "./App.css";
 
-import ReactTypingEffect from "react-typing-effect";
-import GithubCorner from "react-github-corner";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { AnimatedSwitch, AnimatedRoute } from "react-router-transition";
 
-import gif from "./assets/main.gif";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <>
-      <GithubCorner
-        href="https://github.com/jorgadev"
-        octoColor="#a891b7"
-        bannerColor="white"
-        target="_blank"
-      />
-      <div className="App">
-        <div className="wrapper">
-          <ReactTypingEffect
-            text={["Hello, I am jorgadev!", "Want to see my projects?"]}
-            className="title"
-            speed={100}
-            eraseSpeed={100}
-            eraseDelay={500}
-            typingDelay={1000}
-            displayTextRenderer={(text, i) => {
-              return (
-                <p>
-                  {text.split("").map((char, j) => {
-                    return (
-                      <span
-                        key={j}
-                        style={
-                          i === 0 && j > 11 && j < 20
-                            ? { fontWeight: "bold" }
-                            : {}
-                        }
-                      >
-                        {char}
-                      </span>
-                    );
-                  })}
-                </p>
-              );
-            }}
-          />
-          <img className="gif" src={gif} alt="Gif!" />
-        </div>
-      </div>
-    </>
+    <Router>
+      <AnimatedSwitch
+        atEnter={{ opacity: 0 }}
+        atLeave={{ opacity: 0 }}
+        atActive={{ opacity: 1 }}
+        className="switch-wrapper"
+      >
+        <Route exact path="/" component={Home} />
+        <Route path="/about/" component={About} />
+        <Route path="/projects/" component={Projects} />
+      </AnimatedSwitch>
+    </Router>
   );
 }
 
