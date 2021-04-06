@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./Home.css";
 import "animate.css";
 
@@ -5,14 +6,28 @@ import Link from "react-router-dom/Link";
 import { FaUser } from "react-icons/fa";
 import { FiCode } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
+import { FaPause } from "react-icons/fa";
 
 import Title from "./Title";
 import Github from "./Github";
 import Languages from "./Languages";
 import CVButton from "./CVButton";
 import gif from "../assets/main.gif";
+import music from "../assets/music.mp3";
 
 export default function Home() {
+  const [musicPlaying, setMusicPlaying] = useState(false);
+  let audio = new Audio(music);
+
+  const handleMusicPlay = () => {
+    if (musicPlaying) {
+      audio.pause();
+    } else {
+      audio.play();
+    }
+    setMusicPlaying((prev) => !prev);
+  };
+
   return (
     <>
       <Github />
@@ -32,11 +47,15 @@ export default function Home() {
               My Projects
             </Link>
           </div>
-          <div className="right-buttons animate__animated animate__backInRight ">
-            <a href="#" className="link-btn">
-              <FaPlay size={24} className="icon" />
+          <div className="right-buttons animate__animated animate__backInRight">
+            <div className="link-btn" onClick={handleMusicPlay}>
+              {!musicPlaying ? (
+                <FaPlay size={24} className="icon" />
+              ) : (
+                <FaPause size={24} className="icon" />
+              )}
               Play Music
-            </a>
+            </div>
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ export default function Projects() {
   return (
     <div className="Projects">
       <h1>Projects</h1>
+      <div className="title-line"></div>
       <Link to="/">Home</Link>
     </div>
   );
