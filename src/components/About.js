@@ -1,5 +1,4 @@
 import "./About.css";
-import Translate from "../languages/Translate";
 
 export default function About() {
   return (
@@ -8,7 +7,6 @@ export default function About() {
       <div className="title-line"></div>
       <div className="main">
         <div className="about">
-          <Translate string={"hello"} />
           <p>
             Highly self-motivated web & mobile developer passionate about
             learning the latest and greatest technologies with a flair for

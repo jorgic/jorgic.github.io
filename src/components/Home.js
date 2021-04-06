@@ -47,11 +47,13 @@ export default function Home({ language, setLanguage }) {
             </Link>
             <Link to="/projects" className="link-btn">
               <FiCode size={24} className="icon" />
-              My Projects
+              <Translate string={"myProjects"} />
             </Link>
           </div>
           <div className="right-buttons animate__animated animate__backInRight">
-            <p>Everything is better with music..</p>
+            <p>
+              <Translate string={"musicQuote"} />
+            </p>
             <div
               className={`link-btn ${
                 musicPlaying
@@ -68,7 +70,7 @@ export default function Home({ language, setLanguage }) {
               ) : (
                 <FaPause size={24} className="icon" />
               )}
-              Play Music
+              <Translate string={"playMusic"} />
             </div>
           </div>
         </div>
