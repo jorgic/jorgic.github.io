@@ -7,7 +7,7 @@ export default function ParticlesBG() {
       params={{
         particles: {
           number: {
-            value: 60,
+            value: 120,
             density: {
               enable: true,
               value_area: 1500,
@@ -15,14 +15,14 @@ export default function ParticlesBG() {
           },
           line_linked: {
             enable: true,
-            opacity: 0.02,
+            opacity: 0.05,
           },
           move: {
             direction: "right",
-            speed: 0.05,
+            speed: 0.15,
           },
           size: {
-            value: 1,
+            value: 1.5,
           },
           opacity: {
             anim: {

@@ -7,6 +7,7 @@ import { FaUser } from "react-icons/fa";
 import { FiCode } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { FaPause } from "react-icons/fa";
+import Translate from "../languages/Translate";
 
 import Title from "./Title";
 import Github from "./Github";
@@ -17,7 +18,7 @@ import gif from "../assets/main.gif";
 import music from "../assets/music.mp3";
 import ParticlesBG from "./ParticlesBG";
 
-export default function Home() {
+export default function Home({ language, setLanguage }) {
   const [musicPlaying, setMusicPlaying] = useState(false);
   const audioRef = useRef();
 
@@ -33,16 +34,16 @@ export default function Home() {
   return (
     <>
       <Github />
-      <Languages />
+      <Languages language={language} setLanguage={setLanguage} />
       <div className="Home">
         <div className="wrapper">
-          <Title />
+          <Title language={language} />
           <img id="title" className="gif" src={gif} alt="Gif!" />
-          <CVButton />
+          <CVButton language={language} />
           <div className="left-buttons animate__animated animate__backInLeft">
             <Link to="/about" className="link-btn">
               <FaUser size={24} className="icon" />
-              About Me
+              <Translate string={"aboutMe"} />
             </Link>
             <Link to="/projects" className="link-btn">
               <FiCode size={24} className="icon" />

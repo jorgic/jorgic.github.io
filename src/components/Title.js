@@ -1,10 +1,19 @@
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 
-export default function Title() {
+export default function Title({ language }) {
+  let textArray = [];
+  if (language === "en") {
+    textArray = ["Hi, I am jorgadev.", "This is my portfolio!"];
+  } else if (language === "sl") {
+    textArray = ["Zdravo, sem jorgadev.", "To je moj portfolio!"];
+  } else if (language === "rs") {
+    textArray = ["Zdravo, ja sam jorgadev.", "Ovo je moj portfolio!"];
+  }
+
   return (
     <ReactTypingEffect
-      text={["Hello, I am jorgadev.", "Let's chat!"]}
+      text={textArray}
       className="title"
       speed={100}
       eraseSpeed={100}

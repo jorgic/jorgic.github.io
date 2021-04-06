@@ -1,4 +1,3 @@
-import React from "react";
 import GithubCorner from "react-github-corner";
 
 export default function Github() {
@@ -8,6 +7,7 @@ export default function Github() {
       octoColor="#3664f4"
       bannerColor="white"
       target="_blank"
+      className="github"
     />
   );
 }
