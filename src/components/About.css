@@ -1,26 +1,46 @@
 .About {
   height: 100vh;
-  background-color: #ffc457;
+  background-color: #3664f4;
   padding: 20px;
   position: relative;
+  color: #fff;
 }
 
 .title-line {
   width: 4rem;
   height: 3px;
-  background-color: black;
+  background-color: #fff !important;
   margin-top: 10px;
   margin-bottom: 20px;
 }
 
 .main {
   display: grid;
-  grid-template-columns: 40% 60%;
-  column-gap: 1rem;
+  grid-template-columns: 40% 50px auto;
 }
 .main .about {
   text-align: justify;
 }
-.main .other {
-  text-align: right;
+
+.main .about .quote {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.experience {
+  margin-bottom: 50px;
+}
+
+.experience ul {
+  margin-top: 20px;
+  margin-left: 20px;
+  list-style-type: disc;
+  display: block;
+}
+
+.experience li:hover {
+  cursor: auto;
 }

@@ -1,0 +1,7 @@
+.DevIcons svg {
+  width: 40px;
+  margin-right: 5px;
+}
+.DevIcons svg:hover {
+  transform: scale(1.1);
+}
