@@ -20,7 +20,7 @@ export default function CVButton() {
       onClick={handleDownload}
       color={"teal"}
       idleText={"Download CV"}
-      style={{ fontSize: 16, padding: "10px 20px" }}
+      style={{ fontSize: 16, padding: "10px 20px", zIndex: "1" }}
     />
   );
 }

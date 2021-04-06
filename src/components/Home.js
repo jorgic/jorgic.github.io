@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import "./Home.css";
 import "animate.css";
 
@@ -12,18 +12,20 @@ import Title from "./Title";
 import Github from "./Github";
 import Languages from "./Languages";
 import CVButton from "./CVButton";
+
 import gif from "../assets/main.gif";
 import music from "../assets/music.mp3";
+import ParticlesBG from "./ParticlesBG";
 
 export default function Home() {
   const [musicPlaying, setMusicPlaying] = useState(false);
-  let audio = new Audio(music);
+  const audioRef = useRef();
 
   const handleMusicPlay = () => {
     if (musicPlaying) {
-      audio.pause();
+      audioRef.current.pause();
     } else {
-      audio.play();
+      audioRef.current.play();
     }
     setMusicPlaying((prev) => !prev);
   };
@@ -48,7 +50,18 @@ export default function Home() {
             </Link>
           </div>
           <div className="right-buttons animate__animated animate__backInRight">
-            <div className="link-btn" onClick={handleMusicPlay}>
+            <p>Everything is better with music..</p>
+            <div
+              className={`link-btn ${
+                musicPlaying
+                  ? "animate__animated animate__pulse animate__infinite"
+                  : null
+              }`}
+              onClick={handleMusicPlay}
+            >
+              <audio ref={audioRef} id="player" autoplay loop>
+                <source src={music} type="audio/mp3" />
+              </audio>
               {!musicPlaying ? (
                 <FaPlay size={24} className="icon" />
               ) : (
@@ -59,6 +72,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <ParticlesBG />
     </>
   );
 }

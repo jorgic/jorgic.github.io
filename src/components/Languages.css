@@ -2,6 +2,7 @@
   position: absolute;
   padding: 10px;
   color: #ccc;
+  z-index: 1;
 }
 
 ul {

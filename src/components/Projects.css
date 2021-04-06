@@ -12,3 +12,8 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
+.slider {
+  height: 200px;
+  z-index: 99;
+}
