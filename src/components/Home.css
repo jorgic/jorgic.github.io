@@ -106,3 +106,28 @@
     width: 64px;
   }
 }
+
+@media (max-width: 991.98px) {
+  .right-buttons {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .left-buttons {
+    left: 0;
+    align-items: baseline;
+  }
+  .btn-text {
+    display: none !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .Home {
+    text-align: center;
+  }
+  .gif {
+    max-width: 300px;
+  }
+}

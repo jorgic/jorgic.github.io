@@ -8,6 +8,7 @@
 
 .Skills section ul {
   color: #000;
+  flex-wrap: wrap;
 }
 
 .Skills section ul li {

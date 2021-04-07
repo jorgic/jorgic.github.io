@@ -58,3 +58,13 @@
     font-size: 1.8rem;
   }
 }
+
+@media (max-width: 991.98px) {
+  .About {
+    grid-template-columns: 100% 0;
+    padding: 10px;
+  }
+  .right-side {
+    display: none;
+  }
+}

@@ -75,3 +75,12 @@
     max-height: 400px !important;
   }
 }
+
+@media (max-width: 767.98px) {
+  .Project {
+    grid-template-columns: 100% 0 !important;
+  }
+  .project-picture {
+    display: none !important;
+  }
+}

@@ -48,11 +48,15 @@ export default function Home({ language, setLanguage }) {
           <div className="left-buttons animate__animated animate__backInLeft">
             <Link to="/about" className="link-btn">
               <FaUser size={24} className="icon" />
-              <Translate string={"aboutMe"} />
+              <span className="btn-text">
+                <Translate string={"aboutMe"} />
+              </span>
             </Link>
             <Link to="/projects" className="link-btn">
               <FiCode size={24} className="icon" />
-              <Translate string={"myProjects"} />
+              <span className="btn-text">
+                <Translate string={"myProjects"} />
+              </span>
             </Link>
           </div>
           <div className="right-buttons animate__animated animate__backInRight">
