@@ -9,6 +9,7 @@ import musician from "../assets/musician.png";
 import wc from "../assets/wc.png";
 import numberzen from "../assets/numberzen.png";
 import codeteams from "../assets/codeteams.png";
+import Translate from "../languages/Translate";
 
 export default function Projects() {
   const settings = {
@@ -23,40 +24,40 @@ export default function Projects() {
 
   return (
     <div className="Projects">
-      <h1>Projects</h1>
+      <h1>
+        <Translate string={"myProjects"} />
+      </h1>
       <div className="title-line"></div>
       <Slider {...settings} className="slider">
         <Project
-          title={"MUSICIAN - GUESS THE SONG"}
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus
-          mi varius sapien laoreet consequat. Sed rhoncus in diam vel interdum.
-          Donec eleifend dapibus consequat. Cras cursus sit amet purus sit amet
-          placerat.`}
+          title={<Translate string={"musician"} />}
+          description={<Translate string={"musicianDesc"} />}
           image={musician}
+          demo={
+            "https://play.google.com/store/apps/details?id=com.jorga.muzikant&hl=en&gl=US"
+          }
+          code={"https://github.com/jorgadev/muzikant.io"}
         />
         <Project
-          title={"WEATHER CHAMBER"}
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus
-          mi varius sapien laoreet consequat. Sed rhoncus in diam vel interdum.
-          Donec eleifend dapibus consequat. Cras cursus sit amet purus sit amet
-          placerat.`}
+          title={<Translate string={"weatherChamber"} />}
+          description={<Translate string={"weatherChamberDesc"} />}
           image={wc}
+          demo={"https://weather-chamber.netlify.app/"}
+          code={"https://github.com/jorgadev/weather-chamber"}
         />
         <Project
           title={"NUMBERZEN"}
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus
-          mi varius sapien laoreet consequat. Sed rhoncus in diam vel interdum.
-          Donec eleifend dapibus consequat. Cras cursus sit amet purus sit amet
-          placerat.`}
+          description={<Translate string={"numberzenDesc"} />}
           image={numberzen}
+          demo={"https://numberzen.netlify.app/prime-number"}
+          code={"https://github.com/jorgadev/numberzen"}
         />
         <Project
           title={"CODETEAMS"}
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus
-          mi varius sapien laoreet consequat. Sed rhoncus in diam vel interdum.
-          Donec eleifend dapibus consequat. Cras cursus sit amet purus sit amet
-          placerat.`}
+          description={<Translate string={"codeTeamsDesc"} />}
           image={codeteams}
+          demo={"http://code-teams.herokuapp.com/"}
+          code={"https://github.com/jorgadev/codehub"}
         />
       </Slider>
       <HomeButton />

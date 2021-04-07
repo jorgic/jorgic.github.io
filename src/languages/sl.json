@@ -2,5 +2,15 @@
     "aboutMe": "O meni",
     "myProjects": "Moji projekti",
     "playMusic": "Predvajaj glasbo",
-    "musicQuote": "Vse je boljše z glasbo.."
+    "musicQuote": "Vse je boljše z glasbo..",
+    "mainInfo": "Sem Radovan Jorgić. Trenutno živim in se šolam na Ravnah na Koroškem v Sloveniji.",
+    "nextInfo": "Že od otroštva mi je tehnologija zelo pri srcu. S programiranjem se ukvarjam že tri leta in se vsak dan veselim novih znanj in napredka. Poleg programiranja, rad igram nogomet, futsal, poslušam glasbo ter spijem kakšno pivo s prijatelji.",
+    "quote": "Če si najpametnejša oseba v sobi potem si v napačni sobi.",
+    "musician": "MUZIKANT - UGANI PESEM",
+    "musicianDesc": "Izjemno zasvojiv glasbeni kviz z uporabniškim vmesnikom v dveh jezikih. Kodiran s pomočjo HTML5, CSS3, Javascript, PHP programskih jezikov ter SQL podatkovnih baz in predhodno narejenega API-ja. Aplikacija je s pomočjo Java programskega jezika omogočena na vseh Android napravah kot hibridna aplikacija.",
+    "weatherChamber": "VREMENSKA KOMORA",
+    "weatherChamberDesc": "Model komore s popolnoma brezžičnim upravljanjem vremena prek API-ja ter mobilne aplikacije. Aplikacije izdelane s pomočjo React Native programskega jezika. Backend del pa je bil vzpostavljen s pomočjo Node, Express in Firebase podatkovne baze. Realni podatki o vremenu pridobljeni iz OpenWeather API-ja.",
+    "numberzenDesc": "Spletna aplikacija za analizo števil prevedena v tri različne jezike. Vsebuje svetlo in temno temo. Omogoča preverbo praštevil ter iskanje deliteljev določenega števila. Glavni cilj je bil izostriti znanje React programskega jezika ter uporabiti React Router, Context API ter localStorage.",
+    "codeTeamsDesc": "Spletna aplikacija za organizacijo programerskega dela znotraj enega podjetja. Izdelana s pomočjo React programskega jezika in Firebase podatkovne baze. Vključuje avtentikacijo uporabnikov in kontrolo podatkov v realnem času. Aplikacija je še vedno nedokončana.",
+    "code": "Koda"
 }

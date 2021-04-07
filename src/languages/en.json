@@ -2,5 +2,16 @@
     "aboutMe": "About Me",
     "myProjects": "My Projects",
     "playMusic": "Play Music",
-    "musicQuote": "Everything is better with music.."
+    "musicQuote": "Everything is better with music..",
+    "mainInfo": "My name is Radovan Jorgić. I am currently living and studying in Ravne na Koroškem, Slovenia.",
+    "nextInfo": "From very young age I've shown passion about technology. I've been programming for three years now and my love for it grows every day. Aside of programming, I like football, futsal, music and a couple of beers with friends.",
+    "quote": "If you're the smartest person in the room, you're in the wrong room.",
+    "musician": "MUSICIAN - GUESS THE SONG",
+    "musicianDesc": "An extremely addictive music quiz with multilingual UI. Built in HTML5, CSS3, Javascript and PHP with usage of SQL databases and pre-created API. Displayed in Java's WebView component in Java as a hybrid mobile app.",
+    "weatherChamber": "WEATHER CHAMBER",
+    "weatherChamberDesc": "Model of chamber with API and mobile application for weather control. Mobile app built in React Native and backend maintained with Node, Express, Firebase. Live weather data fetched from OpenWeather API.",
+    "numberzenDesc": "Number analysis website translated in three different languages with light and dark theme. Includes checker for prime numbers and find divisors functionality. Main point was to sharp React skills and use React Router, Context API and localStorage.",
+    "codeTeamsDesc": "Web application for organizing coding jobs inside one company. Built in React with usage of Firebase database and includes authorization and real-time data. App is still unfinished, has just main functionality.",
+    "code": "Code"
+
 }

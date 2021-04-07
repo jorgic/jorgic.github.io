@@ -4,11 +4,11 @@ import ReactTypingEffect from "react-typing-effect";
 export default function Title({ language }) {
   let textArray = [];
   if (language === "en") {
-    textArray = ["Hi, I am jorgadev.", "This is my portfolio!"];
+    textArray = ["Hi, I am Jorga.", "Welcome to my portfolio website!"];
   } else if (language === "sl") {
-    textArray = ["Zdravo, sem jorgadev.", "To je moj portfolio!"];
+    textArray = ["Zdravo, sem Jorga.", "Dobrodošli na moj portfolio!"];
   } else if (language === "rs") {
-    textArray = ["Zdravo, ja sam jorgadev.", "Ovo je moj portfolio!"];
+    textArray = ["Zdravo, ja sam Jorga.", "Dobrodošli na moj portfolio!"];
   }
 
   return (

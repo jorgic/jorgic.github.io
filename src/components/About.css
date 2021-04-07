@@ -25,6 +25,10 @@
   margin-top: 30px;
 }
 
+.about-side .bio p {
+  margin-top: 10px;
+}
+
 .about-side .title-line {
   background-color: #3664f4;
 }
@@ -32,4 +36,8 @@
 .right-side {
   display: grid;
   place-items: center;
+}
+
+.quote {
+  font-size: 1.2rem;
 }

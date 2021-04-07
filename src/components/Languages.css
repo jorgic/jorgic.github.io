@@ -11,8 +11,17 @@ ul {
 }
 
 li {
-  margin: 0 3px;
+  margin: 0 5px;
   cursor: pointer;
+  font-size: 1.2rem;
+}
+
+li:hover {
+  opacity: 0.8;
+}
+
+.active:hover {
+  opacity: 1;
 }
 
 .active {

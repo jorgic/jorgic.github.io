@@ -2,6 +2,15 @@
     "aboutMe": "O meni",
     "myProjects": "Moji projekti",
     "playMusic": "Pusti muziku",
-    "musicQuote": "Sve je bolje uz muziku.."
-
+    "musicQuote": "Sve je bolje uz muziku..",
+    "mainInfo": "Zovem se Radovan Jorgić. Trenutno živim i školujem se u Ravnama na Koroškem, Slovenija.",
+    "nextInfo": "Još od djetinjstva sam pokazivao sklonost ka tehnologiji. Programiranjem se bavim već tri godine i radujem se napretku svakog dana. Pored programiranja, volim fudbal, futsal, muziku i pivo sa drugarima.",
+    "quote": "Ako si najpametnija osoba u sobi onda si u pogrešnoj sobi.",
+    "musician": "MUZIKANT - POGODI PESMU",
+    "musicianDesc": "Izuzetno zarazan muzički kviz sa korisničkim interfejsom prevedenim u dva jezika. Kodiran u jezicima HTML5, CSS3, Javascript, PHP uz korišćenje SQL baza i prethodno kreiranog API-ja. Aplikacija uz pomoć Java programskog jezika prilagođena kao hibridna aplikacija za sve Android uređaje.",
+    "weatherChamber": "VREMENSKA KOMORA",
+    "weatherChamberDesc": "Maketa komore sa potpuno bežičnom kontrolom vremena preko API-ja te mobilne aplikacije. Kodirana u React Native programskom jeziku. Backend dio uspostavljen uz pomoć Node, Express i Firebase baze podataka. Realni podaci o vremenu pridobijeni iz OpenWeather API-ja.",
+    "numberzenDesc": "Internet aplikacija za brojevnu analizu prevedena u tri različita jezika sa svetlom i tamnom temom. Uključuje proveru prostih brojeva i potragu za deliocima. Glavni cilj je bio izoštriti znanje React jezika te upotrebiti React Router, Context API te localStorage.",
+    "codeTeamsDesc": "Internet aplikacija za organizaciju programerskih poslova unutar jedne kompanije. Kodirana u Reactu uz pomoć Firebase baze podataka. Uključuje autentikaciju korisnika i kontrolu podataka u realnom vremenu. Aplikacija je još uvijek nedovršena.",
+    "code": "Kod"
 }
