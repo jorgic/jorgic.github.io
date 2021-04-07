@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
+import HomeButton from "./HomeButton";
 
 export default function Projects() {
   const settings = {
@@ -38,6 +39,7 @@ export default function Projects() {
           <h3>6</h3>
         </div>
       </Slider>
+      <HomeButton />
     </div>
   );
 }

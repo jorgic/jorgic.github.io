@@ -35,12 +35,8 @@ export default function About() {
               nibh, et aliquet urna.
             </p>
             <ul>
-              <li>
-                <strong>Salesperson (Telemach Slovenia)</strong>
-              </li>
-              <li>
-                <strong>Freelance Web Developer</strong>
-              </li>
+              <li>Salesperson (Telemach Slovenia)</li>
+              <li>Freelance Web Developer</li>
             </ul>
           </section>
           <section className="skills">

@@ -1,14 +1,15 @@
 .Projects {
   height: 100vh;
-  background-color: #f0edff;
+  background-color: #3664f4;
   padding: 20px;
   position: relative;
+  color: #fff;
 }
 
 .title-line {
   width: 4rem;
   height: 3px;
-  background-color: black;
+  background-color: #fff;
   margin-top: 10px;
   margin-bottom: 20px;
 }
