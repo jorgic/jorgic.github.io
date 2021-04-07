@@ -2,6 +2,7 @@ import { useState } from "react";
 import ReactiveButton from "reactive-button";
 
 import cv from "../assets/cv.pdf";
+import "animate.css";
 
 export default function CVButton({ language }) {
   const [state, setState] = useState("idle");
@@ -40,6 +41,7 @@ export default function CVButton({ language }) {
       successText={successText}
       animation={true}
       style={{ fontSize: 16, padding: "10px 20px", zIndex: "1" }}
+      className="animate__animated animate__pulse"
     />
   );
 }

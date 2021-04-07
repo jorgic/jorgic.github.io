@@ -1,6 +1,5 @@
 .About {
   height: 100vh;
-  background-color: #3664f4;
   padding: 20px;
   position: relative;
   color: #fff;
@@ -12,35 +11,4 @@
   background-color: #fff !important;
   margin-top: 10px;
   margin-bottom: 20px;
-}
-
-.main {
-  display: grid;
-  grid-template-columns: 40% 50px auto;
-}
-.main .about {
-  text-align: justify;
-}
-
-.main .about .quote {
-  background-color: rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-
-.experience {
-  margin-bottom: 50px;
-}
-
-.experience ul {
-  margin-top: 20px;
-  margin-left: 20px;
-  list-style-type: disc;
-  display: block;
-}
-
-.experience li:hover {
-  cursor: auto;
 }

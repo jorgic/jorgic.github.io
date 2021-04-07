@@ -3,9 +3,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import HomeButton from "./HomeButton";
-import { FaPlay } from "react-icons/fa";
-import { FiCode } from "react-icons/fi";
+import Project from "./Project";
+import ParticlesBG from "./ParticlesBG";
 import musician from "../assets/musician.png";
+import wc from "../assets/wc.png";
+import numberzen from "../assets/numberzen.png";
+import codeteams from "../assets/codeteams.png";
 
 export default function Projects() {
   const settings = {
@@ -23,36 +26,41 @@ export default function Projects() {
       <h1>Projects</h1>
       <div className="title-line"></div>
       <Slider {...settings} className="slider">
-        <div className="project mobile">
-          <div className="project-info">
-            <h1>MUSICIAN - GUESS THE SONG</h1>
-            <div className="title-line project-line"></div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              rhoncus mi varius sapien laoreet consequat. Sed rhoncus in diam
-              vel interdum. Donec eleifend dapibus consequat. Cras cursus sit
-              amet purus sit amet placerat.
-            </p>
-            <div className="project-buttons">
-              <a className="link-btn">
-                <FaPlay />
-                Demo
-              </a>
-              <a className="link-btn">
-                <FiCode />
-                Code
-              </a>
-            </div>
-          </div>
-          <div className="project-picture">
-            <img className="device" src={musician} />
-          </div>
-        </div>
-        <div className="project">
-          <h3>2</h3>
-        </div>
+        <Project
+          title={"MUSICIAN - GUESS THE SONG"}
+          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus
+          mi varius sapien laoreet consequat. Sed rhoncus in diam vel interdum.
+          Donec eleifend dapibus consequat. Cras cursus sit amet purus sit amet
+          placerat.`}
+          image={musician}
+        />
+        <Project
+          title={"WEATHER CHAMBER"}
+          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus
+          mi varius sapien laoreet consequat. Sed rhoncus in diam vel interdum.
+          Donec eleifend dapibus consequat. Cras cursus sit amet purus sit amet
+          placerat.`}
+          image={wc}
+        />
+        <Project
+          title={"NUMBERZEN"}
+          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus
+          mi varius sapien laoreet consequat. Sed rhoncus in diam vel interdum.
+          Donec eleifend dapibus consequat. Cras cursus sit amet purus sit amet
+          placerat.`}
+          image={numberzen}
+        />
+        <Project
+          title={"CODETEAMS"}
+          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus
+          mi varius sapien laoreet consequat. Sed rhoncus in diam vel interdum.
+          Donec eleifend dapibus consequat. Cras cursus sit amet purus sit amet
+          placerat.`}
+          image={codeteams}
+        />
       </Slider>
       <HomeButton />
+      <ParticlesBG />
     </div>
   );
 }

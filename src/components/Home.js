@@ -38,7 +38,12 @@ export default function Home({ language, setLanguage }) {
       <div className="Home">
         <div className="wrapper">
           <Title language={language} />
-          <img id="title" className="gif" src={gif} alt="Gif!" />
+          <img
+            id="title"
+            className="gif animate__animated animate__pulse"
+            src={gif}
+            alt="Gif!"
+          />
           <CVButton language={language} />
           <div className="left-buttons animate__animated animate__backInLeft">
             <Link to="/about" className="link-btn">

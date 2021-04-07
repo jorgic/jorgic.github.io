@@ -1,5 +1,4 @@
 .Projects {
-  background-color: #3664f4;
   padding: 20px;
   color: #fff;
   height: 100vh;
@@ -13,12 +12,6 @@
   margin-bottom: 20px;
 }
 
-.project-line {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .slider {
   height: calc(100% - 150px);
   padding: 10px;
@@ -27,49 +20,12 @@
   align-items: center !important;
 }
 
-.slider .project {
-  display: grid !important;
-  column-gap: 1rem;
-}
-
-.project-info {
-  text-align: center;
-  display: grid;
-  place-items: center;
-}
-
-.project-buttons {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 50px;
-  width: fit-content;
-}
-
-.project-picture {
-  display: grid;
-  place-items: center;
-}
-
-.project-picture img {
-  width: 150px;
-}
-
-.project-buttons .link-btn {
-  margin: 0 5px;
-}
-
-.project-buttons .link-btn svg {
-  margin-right: 5px;
-}
-
-.slider .mobile {
-  grid-template-columns: 60% 40%;
-}
-
-.project:focus {
-  outline: none;
-  border: none;
+.slider .slick-list,
+.slider .slick-track,
+.slider .slick-slide,
+.slider .slick-slide,
+.slider .slick-slide > div {
+  height: 100%;
 }
 
 .slider .desktop {

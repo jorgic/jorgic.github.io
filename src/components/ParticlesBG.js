@@ -1,9 +1,10 @@
 import Particles from "react-particles-js";
+import "./ParticlesBG.css";
 
 export default function ParticlesBG() {
   return (
     <Particles
-      className="particles"
+      className="ParticlesBG"
       params={{
         particles: {
           number: {

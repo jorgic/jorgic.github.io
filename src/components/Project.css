@@ -1,0 +1,55 @@
+.Project {
+  display: grid !important;
+  column-gap: 1rem;
+  grid-template-columns: 60% 40%;
+  cursor: grab;
+  height: 100%;
+}
+
+.Project:active {
+  cursor: grabbing;
+}
+
+.project-info {
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: fit-content;
+}
+
+.project-picture {
+  display: grid;
+  place-items: center;
+}
+
+.project-picture img {
+  width: 60%;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.project-buttons .link-btn {
+  margin: 0 5px;
+}
+
+.project-buttons .link-btn svg {
+  margin-right: 5px;
+}
+
+.project:focus {
+  outline: none;
+  border: none;
+}
+
+.project-line {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
