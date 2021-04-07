@@ -24,7 +24,7 @@ export default function Projects() {
 
   return (
     <div className="Projects">
-      <h1>
+      <h1 className="projects-title">
         <Translate string={"myProjects"} />
       </h1>
       <div className="title-line"></div>

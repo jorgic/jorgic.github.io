@@ -13,6 +13,7 @@ export default function Languages({ language, setLanguage }) {
         {languages.map((lang) => {
           return (
             <li
+              key={lang}
               className={lang === language ? `active` : null}
               onClick={(e) => handleLanguage(e)}
             >

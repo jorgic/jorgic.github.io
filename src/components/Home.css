@@ -18,10 +18,6 @@
   font-weight: 300;
 }
 
-.title span {
-  font-weight: 400;
-}
-
 .gif {
   width: 80vw;
   max-width: 300px;
@@ -74,4 +70,39 @@
 
 .github svg {
   z-index: 99;
+}
+
+@media (min-width: 1600px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  .gif {
+    max-width: 500px;
+  }
+  .left-buttons {
+    left: 200px;
+    font-size: 1.5rem;
+  }
+  .right-buttons {
+    font-size: 1.5rem;
+    right: 200px;
+  }
+  .Languages li {
+    font-size: 1.8rem;
+  }
+  .CVButton {
+    font-size: 1.5rem !important;
+  }
+  .github-corner svg {
+    width: 120px;
+    height: 120px;
+  }
+  .HomeButton {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .HomeButton svg {
+    width: 64px;
+  }
 }

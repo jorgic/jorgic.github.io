@@ -7,7 +7,6 @@ export default function Github() {
       octoColor="#3664f4"
       bannerColor="white"
       target="_blank"
-      className="github"
     />
   );
 }

@@ -41,3 +41,20 @@
 .quote {
   font-size: 1.2rem;
 }
+
+@media (min-width: 1600px) {
+  .about-side h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-side h3 {
+    font-size: 1.6rem;
+  }
+
+  .about-side {
+    font-size: 1.3rem;
+  }
+  .quote {
+    font-size: 1.8rem;
+  }
+}

@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import "./Home.css";
 import "animate.css";
 
-import Link from "react-router-dom/Link";
+import { Link } from "react-router-dom";
 import { FaUser } from "react-icons/fa";
 import { FiCode } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
@@ -67,7 +67,7 @@ export default function Home({ language, setLanguage }) {
               }`}
               onClick={handleMusicPlay}
             >
-              <audio ref={audioRef} id="player" autoplay loop>
+              <audio ref={audioRef} id="player" loop>
                 <source src={music} type="audio/mp3" />
               </audio>
               {!musicPlaying ? (

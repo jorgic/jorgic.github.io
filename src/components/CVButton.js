@@ -41,7 +41,7 @@ export default function CVButton({ language }) {
       successText={successText}
       animation={true}
       style={{ fontSize: 16, padding: "10px 20px", zIndex: "1" }}
-      className="animate__animated animate__pulse"
+      className="CVButton animate__animated animate__pulse"
     />
   );
 }
