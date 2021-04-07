@@ -1,0 +1,16 @@
+.Skills {
+  margin-top: 50px;
+}
+
+.Skills section {
+  margin: 10px 0;
+}
+
+.Skills section ul {
+  color: #000;
+}
+
+.Skills section ul li {
+  margin-right: 10px;
+  cursor: auto;
+}

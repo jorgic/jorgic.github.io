@@ -1,14 +1,35 @@
 .About {
   height: 100vh;
-  padding: 20px;
   position: relative;
   color: #fff;
+  display: grid;
+  grid-template-columns: 35% 65%;
 }
 
-.title-line {
-  width: 4rem;
-  height: 3px;
-  background-color: #fff !important;
-  margin-top: 10px;
-  margin-bottom: 20px;
+.About .HomeButton {
+  left: auto;
+  right: 25px;
+  bottom: 25px;
+}
+
+.about-side {
+  background-color: #fff;
+  padding: 20px;
+  color: #3664f4;
+  height: 100%;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-side .bio {
+  color: #000;
+  margin-top: 30px;
+}
+
+.about-side .title-line {
+  background-color: #3664f4;
+}
+
+.right-side {
+  display: grid;
+  place-items: center;
 }
