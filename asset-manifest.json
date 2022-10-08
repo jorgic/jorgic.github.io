@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d9cdb0a.chunk.css",
+    "main.js": "/static/js/main.f7e9dc35.chunk.js",
+    "main.js.map": "/static/js/main.f7e9dc35.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.06b5035f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.06b5035f.js.map",
+    "static/css/2.1cc1c7c3.chunk.css": "/static/css/2.1cc1c7c3.chunk.css",
+    "static/js/2.fad5622d.chunk.js": "/static/js/2.fad5622d.chunk.js",
+    "static/js/2.fad5622d.chunk.js.map": "/static/js/2.fad5622d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1cc1c7c3.chunk.css.map": "/static/css/2.1cc1c7c3.chunk.css.map",
+    "static/css/main.1d9cdb0a.chunk.css.map": "/static/css/main.1d9cdb0a.chunk.css.map",
+    "static/js/2.fad5622d.chunk.js.LICENSE.txt": "/static/js/2.fad5622d.chunk.js.LICENSE.txt",
+    "static/media/EN_CV_Radovan_Jorgić.0ba0412d.pdf": "/static/media/EN_CV_Radovan_Jorgić.0ba0412d.pdf",
+    "static/media/RS_CV_Radovan_Jorgić.a2912c46.pdf": "/static/media/RS_CV_Radovan_Jorgić.a2912c46.pdf",
+    "static/media/codeteams.24fe8524.png": "/static/media/codeteams.24fe8524.png",
+    "static/media/main.24fde322.gif": "/static/media/main.24fde322.gif",
+    "static/media/music.0b6f6a12.mp3": "/static/media/music.0b6f6a12.mp3",
+    "static/media/musician.f850ac43.png": "/static/media/musician.f850ac43.png",
+    "static/media/numberzen.1238a06b.png": "/static/media/numberzen.1238a06b.png",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/wc.e8d385be.png": "/static/media/wc.e8d385be.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06b5035f.js",
+    "static/css/2.1cc1c7c3.chunk.css",
+    "static/js/2.fad5622d.chunk.js",
+    "static/css/main.1d9cdb0a.chunk.css",
+    "static/js/main.f7e9dc35.chunk.js"
+  ]
+}
