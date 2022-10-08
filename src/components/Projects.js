@@ -36,28 +36,28 @@ export default function Projects() {
           demo={
             "https://play.google.com/store/apps/details?id=com.jorga.muzikant&hl=en&gl=US"
           }
-          code={"https://github.com/jorgadev/muzikant.io"}
+          code={"https://github.com/jorgic/muzikant.io"}
         />
         <Project
           title={<Translate string={"weatherChamber"} />}
           description={<Translate string={"weatherChamberDesc"} />}
           image={wc}
           demo={"https://weather-chamber.netlify.app/"}
-          code={"https://github.com/jorgadev/weather-chamber"}
+          code={"https://github.com/jorgic/weather-chamber"}
         />
         <Project
           title={"NUMBERZEN"}
           description={<Translate string={"numberzenDesc"} />}
           image={numberzen}
           demo={"https://numberzen.netlify.app/prime-number"}
-          code={"https://github.com/jorgadev/numberzen"}
+          code={"https://github.com/jorgic/numberzen"}
         />
         <Project
           title={"CODETEAMS"}
           description={<Translate string={"codeTeamsDesc"} />}
           image={codeteams}
           demo={"http://code-teams.herokuapp.com/"}
-          code={"https://github.com/jorgadev/codehub"}
+          code={"https://github.com/jorgic/codehub"}
         />
       </Slider>
       <HomeButton />
